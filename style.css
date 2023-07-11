@@ -1,0 +1,464 @@
+.top{
+    height: 150px;
+    width: 170px;
+    background-color: palevioletred;
+    left: 110px;
+    top:70px;
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+    /* overflow:hidden; */
+}
+h4{
+    text-align: center;
+}
+.re{
+    height:15px;
+    width: 15px;
+    top: 100px;
+    left: 25px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+}
+.le{
+    height: 15px;
+    width: 15px;
+    top: 100px;
+    left: 120px; 
+    background-color:white;
+    border-radius: 100%;
+    position: absolute;
+}
+.middle{
+    height: 170px;
+    width: 170px;
+    background-color:palevioletred;
+    left: 110px;
+    top:80px;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rh{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left:-40px;
+    top:10px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rl{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 140px;
+    top: 40px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.ll{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 210px;
+    top: -60px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.lh{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 180px;
+    top:-90px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.container{
+    padding-left: 460px;
+}
+/* .top:hover{
+    
+    background-color: yellow;
+    transform: rotate(60deg);
+}  */
+.rh,.lh,.rl,.ll:hover{
+
+    animation: rh 5s infinite;
+}
+
+@keyframes rh{
+    0%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+     
+     75%{
+        transform: rotate(180deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(0deg);
+    
+        transform-origin: top;
+     }
+        
+}
+.middle:hover{
+
+    animation: middle 5s infinite;
+}
+
+@keyframes middle{
+    0%{
+        transform-origin: top;
+        transform: rotate(90deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(270deg);
+    }
+     
+     75%{
+        transform: rotate(360deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(450deg);
+    
+        transform-origin: top;
+     }
+        
+}.top{
+    height: 150px;
+    width: 170px;
+    background-color: #D64481;
+    left: 110px;
+    top:70px;
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+    /* overflow:hidden; */
+}
+h4{
+    text-align: center;
+}
+.re{
+    height:15px;
+    width: 15px;
+    top: 100px;
+    left: 25px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+}
+.le{
+    height: 15px;
+    width: 15px;
+    top: 100px;
+    left: 120px; 
+    background-color:white;
+    border-radius: 100%;
+    position: absolute;
+}
+.middle{
+    height: 170px;
+    width: 170px;
+    background-color:#D64481;
+    left: 110px;
+    top:80px;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rh{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left:-40px;
+    top:10px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rl{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 140px;
+    top: 40px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.ll{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 210px;
+    top: -60px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.lh{
+    height: 100px;
+    width: 30px;
+    background-color:#D64481;
+    left: 180px;
+    top:-90px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.container{
+    padding-left: 460px;
+}
+/* .top:hover{
+    
+    background-color: yellow;
+    transform: rotate(60deg);
+}  */
+.rh,.lh,.rl,.ll:hover{
+
+    animation: rh 5s infinite;
+}
+
+@keyframes rh{
+    0%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+     
+     75%{
+        transform: rotate(180deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(0deg);
+    
+        transform-origin: top;
+     }
+        
+}
+.middle:hover{
+
+    animation: middle 5s infinite;
+}
+
+@keyframes middle{
+    0%{
+        transform-origin: top;
+        transform: rotate(90deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(270deg);
+    }
+     
+     75%{
+        transform: rotate(360deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(450deg);
+    
+        transform-origin: top;
+     }
+        
+}.top{
+    height: 150px;
+    width: 170px;
+    background-color:blue;
+    left: 110px;
+    top:70px;
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+    /* overflow:hidden; */
+}
+h4{
+    text-align: center;
+}
+.re{
+    height:15px;
+    width: 15px;
+    top: 100px;
+    left: 25px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+}
+.le{
+    height: 15px;
+    width: 15px;
+    top: 100px;
+    left: 120px; 
+    background-color:white;
+    border-radius: 100%;
+    position: absolute;
+}
+.middle{
+    height: 170px;
+    width: 170px;
+    background-color:blue;
+    left: 110px;
+    top:80px;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rh{
+    height: 100px;
+    width: 30px;
+    background-color:skyblue;
+    left:-40px;
+    top:10px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.rl{
+    height: 100px;
+    width: 30px;
+    background-color:skyblue;
+    left: 140px;
+    top: 40px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.ll{
+    height: 100px;
+    width: 30px;
+    background-color:skyblue;
+    left: 210px;
+    top: -60px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.lh{
+    height: 100px;
+    width: 30px;
+    background-color:skyblue;
+    left: 180px;
+    top:-90px;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.container{
+    padding-left: 210px;
+    top:33px
+}
+.top:hover{
+    
+    background-color: yellow;
+    transform: rotate(180deg);
+} 
+.rh,.lh,.rl,.ll:hover{
+
+    animation: rh 2s infinite;
+}
+
+@keyframes rh{
+    0%{
+        transform-origin: top;
+        transform: rotate(0deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+     
+     75%{
+        transform: rotate(180deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(0deg);
+    
+        transform-origin: top;
+     }
+        
+}
+.middle:hover{
+
+    animation: middle 5s infinite;
+}
+
+@keyframes middle{
+    0%{
+        transform-origin: top;
+        transform: rotate(90deg);
+    }
+    25%{
+        transform-origin: top;
+        transform: rotate(180deg);
+    }
+        
+     
+     50%{
+        transform-origin: top;
+        transform: rotate(270deg);
+    }
+     
+     75%{
+        transform: rotate(360deg);
+    
+        transform-origin: top;
+     }
+     100%{
+        transform: rotate(450deg);
+    
+        transform-origin: top;
+     }
+        
+}
